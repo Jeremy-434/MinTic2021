@@ -25,7 +25,7 @@ import co.usa.auditoriog35.auditoriog35.Service.CategoriaServicio;
 @CrossOrigin(origins = "*", methods = {RequestMethod.GET,RequestMethod.POST,RequestMethod.PUT,RequestMethod.DELETE})
 public class CategoriaControlador {
     @Autowired
-    CategoriaServicio categoriaServicio;
+    private CategoriaServicio categoriaServicio;
 
     @GetMapping("/all")
     public List<Categoria>mostrarCategorias(){

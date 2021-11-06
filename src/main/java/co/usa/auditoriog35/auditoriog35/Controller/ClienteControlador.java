@@ -54,6 +54,6 @@ public class ClienteControlador {
     public boolean borrarCliente(@PathVariable("id") int clienteId){
         return clienteServicio.borrar(clienteId);
     }
-    
+
 
 }
